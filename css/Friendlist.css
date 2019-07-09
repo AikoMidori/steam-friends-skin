@@ -690,8 +690,8 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* Position of New Message Group Chat in the Footer */
 .chatSectionTitle .ChatUnreadMessageIndicator{
-    top: 15px !important;
-    left: 1px !important;
+    top: -5px !important;
+    left: -2px !important;
 }
 
 /* Color of New Message Group Chat in the Footer */
@@ -699,7 +699,8 @@ html.client_chat_frame body, html.web_chat_frame body {
     background: red !important;
     height: 10px !important;
     width: 10px !important;
-    margin: 0px !important;
+    margin-left: 4px !important;
+    margin-top: 15px !important;
     border-radius: 50px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
