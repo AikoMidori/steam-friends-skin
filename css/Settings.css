@@ -195,7 +195,7 @@ button.DialogButton.copyVoiceLogsButton {
 .DialogOnOffToggle_Option.Active {
     border-radius: 20px !important;
     color: white !important;
-    margin-left: 1px !important;
+    margin-left: 0px !important;
     box-shadow: 1px 0px 1px black !important;
 }
 
