@@ -182,18 +182,21 @@ button.DialogButton.copyVoiceLogsButton {
 .DialogOnOffToggle_Control {
     background: transparent !important;
     border-radius: 20px !important;
+    margin-left: 0px !important;
 }
 
 /* Dialog OFF Button active */
 .DialogOnOffToggle_Option.Off.Active {
     border-radius: 20px !important;
     background: #2e2e2f !important;
+    margin-left: 0px !important;
 }
 
 /* Dialog Button active */
 .DialogOnOffToggle_Option.Active {
     border-radius: 20px !important;
     color: white !important;
+    margin-left: 1px !important;
 }
 
 /* Dialog Button */
@@ -206,7 +209,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* Dialog OFF Button hover */
 .DialogOnOffToggle_Option.Off:hover {
     width: 30px !important;
-    margin-left: 5px !important;
+    margin-left: 1px !important;
     color: white !important;
     background: #2e2e2f !important;
     border-radius: 20px !important;
@@ -214,15 +217,6 @@ button.DialogButton.copyVoiceLogsButton {
 
 /* Dialog ON Button hover */
 .DialogOnOffToggle_Option.On:hover {
-    width: 30px !important;
-    margin-left: 5px !important;
-    color: white !important;
-    background: #2d73ff !important;
-    border-radius: 20px !important;
-}
-
-/* Dialog ON Button active */
-.DialogOnOffToggle_Option.Active {
     width: 30px !important;
     margin-left: 5px !important;
     color: white !important;
