@@ -512,7 +512,7 @@ html.client_chat_frame body, html.web_chat_frame body {
     margin-right: -10em !important;
 }
 
-/* hidding little arrow */
+/* hiding little arrow */
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
     visibility: hidden !important;
 }

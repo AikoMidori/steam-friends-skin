@@ -11,6 +11,27 @@ CHAT WINDOW
     margin-top: 5px !important;
 }
 
+/* Removes glow form unread message */
+.chatTab .UnreadGlow {
+    display: none !important;
+}
+
+/* Friends typing a messagee */
+.FriendChatTypingNotification {
+    background: #2e2e2f !important;
+    border-radius: 20px !important;
+    margin-bottom: 5px !important;
+    width: 90% !important;
+    margin-left: 25px !important;
+    padding: 10px 10px 10px 10px;
+    height: 15px !important;
+}
+
+/* Makes circle for unread message */
+.chatTab .chatTabUnreadBadge, .FriendMessageCount, .ChatUnreadMessageIndicator {
+    border-radius: 20px !important;
+}
+
 /* Chat tab title */
 .ChatTabs .title-area {
     margin-bottom: -4px !important;
