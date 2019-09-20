@@ -196,7 +196,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 
 .chatWindow .chatEntry {
    background-color: rgb(var(--scrollbar)) !important;
-   height: 44px !important;
+   height: 50px !important;
 }
 
 .chatEntry {
