@@ -16,6 +16,16 @@ CHAT WINDOW
     display: none !important;
 }
 
+/* fixing text input height */
+.chatentry_chatEntryActionsContainer_WZNUD {
+    align-self: auto !important;
+}
+
+/* fixing text input SendButton height */
+.chatentry_chatEntryControls_2O_X7 .chatentry_chatSubmitButton_3VRfL {
+    align-self: auto !important;
+}
+
 /* Friends typing a messagee */
 .FriendChatTypingNotification {
     background: #2e2e2f !important;
