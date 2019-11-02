@@ -1,7 +1,11 @@
 /* ===== DO NOT CHANGE THIS ===== */
 @import url('https://aikomidori.github.io/steam-friends-skin/css/DarkMode.css');
 @import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');
-
+.friendStatusHover.offline:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px !important;
+  width: 95% !important; }
 /*--------------------------------------------------------------
 FRIENDLIST
 --------------------------------------------------------------*/
@@ -9,6 +13,32 @@ FRIENDLIST
 /* Hides the highlight on friendlist (header) */
 .title-area-highlight {
     display: none !important;;
+}
+
+.friendStatusHover.offline:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+    width: 95% !important;
+}
+
+.friendStatusHover.online:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+    width: 95% !important;
+}
+
+.friendStatusHover.ingame:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+    width: 95% !important;
+    left: 4px !important;
+}
+
+.friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
+    left: 4px !important;
 }
 
 /* Your Friendslist Name Centered */
