@@ -91,6 +91,23 @@ FRIENDLIST
     margin-left: -4px !important; 
 }
 
+/* In-Game Status Colors */
+.ingame .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1, .ingame .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a, .ingame .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:hover, .ingame .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:active, .ingame .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:visited, .ingame.personanameandstatus_twoLine_2wZNn .personanameandstatus_richPresenceLabel_3Q6g1 {
+    color: rgb(var(--ingame)) !important;
+}
+
+.SteamPlayerGroupFooterLabel {
+    color: rgb(var(--ingame)) !important;
+}
+
+.online .personanameandstatus_richPresenceLabel_3Q6g1, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:hover, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:active, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:visited {
+    color: rgb(var(--online)) !important;
+}
+
+.offline .personanameandstatus_richPresenceLabel_3Q6g1, .offline .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a, .offline .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:hover, .offline .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:active, .offline .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:visited {
+    color: rgb(var(--offline)) !important;
+}
+
 /* Hides all shadows */
 .insetshadow_FriendsListInsetShadowCtn_1S167 {
     display: none!important;
@@ -714,13 +731,14 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 /* Hides lines between group names on friendlist */
-.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    display: none !important;
+.SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    margin-left: -6px !important;
+    z-index: 1 !important;
 }
 
 /* Fixes issue with friendlist collapsing */
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 6px 0px 6px 12px !important;
+    padding: 6px 0px 2px 12px !important;
 }
 
 /* Position of New Message Group Chat in the Footer */
