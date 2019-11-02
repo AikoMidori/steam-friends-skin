@@ -108,6 +108,10 @@ FRIENDLIST
     color: rgb(var(--offline)) !important;
 }
 
+.ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_3Q6g1, .ingame .personanameandstatus_richPresenceLabel_3Q6g1, .ingame .personanameandstatus_richPresenceLabel_3Q6g1 a, .ingame .personanameandstatus_richPresenceLabel_3Q6g1 a:hover, .ingame .personanameandstatus_richPresenceLabel_3Q6g1 a:active, .ingame .personanameandstatus_richPresenceLabel_3Q6g1 a:visited {
+    color: rgb(var(--ingame)) !important;
+}
+
 /* Hides all shadows */
 .insetshadow_FriendsListInsetShadowCtn_1S167 {
     display: none!important;
@@ -744,7 +748,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .friendlistListContainer .friend .avatarHolder {
-    margin-top: -3px !important;
+    margin-top: 1px !important;
 }
 
 .friend.firstInGroup .SteamPlayerGroupLines {
