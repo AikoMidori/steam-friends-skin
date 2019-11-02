@@ -727,7 +727,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* Steam group count in footer */
 .SteamPlayerGroupFooterCount .count {
-    display: none !important;
+    color: rgb(var(--ingame)) !important;
 }
 
 /* Hides lines between group names on friendlist */
