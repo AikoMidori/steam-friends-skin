@@ -586,11 +586,11 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .CompactFriendsList .SteamPlayerGroupFooterCount .count {
-    margin-top: -5px !important;
+    margin-top: -11px !important;
 }
 
 .CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    margin-top: -10px !important;
+    margin-top: -16px !important;
 }
 
 .CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount, .CompactFriendsList .friend .avatarHolder {
@@ -756,7 +756,11 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
-    margin-top: -3px !important;
+    margin-top: -8px !important;
+}
+
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+    margin-left: 5px !important;
 }
 
 /* Steam group count in footer */
