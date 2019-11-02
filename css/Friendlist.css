@@ -581,6 +581,19 @@ html.client_chat_frame body, html.web_chat_frame body {
     background-color: rgb(var(--header)) !important;
 }
 
+.CompactFriendsList .SteamPlayerGroupFooterCount .count {
+    margin-top: -5px !important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    margin-top: -10px !important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount, .CompactFriendsList .friend .avatarHolder {
+    height: 24px !important;
+    width: 24px !important;
+}
+
 /* Compact friend spacing */
 .CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
     height: 30px !important;
