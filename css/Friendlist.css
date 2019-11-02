@@ -586,6 +586,11 @@ html.client_chat_frame body, html.web_chat_frame body {
     height: 30px !important;
 }
 
+/* player name spacing */
+.friendlistListContainer .friend.ingame .labelHolder {
+    margin-top: 0px !important;
+}
+
 /* Compact game name spacing */
 .CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
     margin-top: -4px !important;
@@ -723,6 +728,18 @@ html.client_chat_frame body, html.web_chat_frame body {
 .friendGroup .groupName {
     margin-left: 12px !important;
     margin-top: 4px !important;
+}
+
+.friendlistListContainer .friend .avatarHolder {
+    margin-top: -3px !important;
+}
+
+.friend.firstInGroup .SteamPlayerGroupLines {
+    margin-top: 13px !important;
+}
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+    margin-top: -3px !important;
 }
 
 /* Steam group count in footer */
