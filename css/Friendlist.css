@@ -780,7 +780,11 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .friendlistListContainer .friend .avatarHolder {
-    margin-top: 2px !important;
+    margin-top: 0px !important;
+}
+
+.friendlistListContainer .friend.ingame .avatarHolder {
+    margin-top: 0px !important;
 }
 
 .friend.firstInGroup .SteamPlayerGroupLines {
