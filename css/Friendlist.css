@@ -637,7 +637,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* player name spacing */
 .friendlistListContainer .friend.ingame .labelHolder {
-    margin-top: 0px !important;
+    margin-top: -6px !important;
 }
 
 /* Compact game name spacing */
@@ -780,7 +780,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .friendlistListContainer .friend .avatarHolder {
-    margin-top: 1px !important;
+    margin-top: 2px !important;
 }
 
 .friend.firstInGroup .SteamPlayerGroupLines {
