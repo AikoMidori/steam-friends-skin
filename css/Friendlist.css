@@ -39,6 +39,7 @@ FRIENDLIST
 
 .friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
     left: 4px !important;
+    padding-top: 6px !important;
 }
 
 /* Your Friendslist Name Centered */
@@ -637,12 +638,16 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* player name spacing */
 .friendlistListContainer .friend.ingame .labelHolder {
-    margin-top: -6px !important;
+    margin-top: -11px !important;
 }
 
 /* Compact game name spacing */
 .CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
-    margin-top: -4px !important;
+    margin-top: -9px !important;
+}
+
+.CompactFriendsList .friendlistListContainer .friend.ingame .avatarHolder {
+    margin-top: 3px !important;
 }
 
 /* MINI PROFILES*/
@@ -659,7 +664,7 @@ html.client_chat_frame body, html.web_chat_frame body {
     border-radius: 4px !important;
 }
 
-/* mini profile Game Backgroung*/
+/* mini profile Game Background*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
     border-radius: 4px !important;
 }
