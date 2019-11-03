@@ -100,7 +100,7 @@ FRIENDLIST
     color: rgb(var(--ingame)) !important;
 }
 
-.online .personanameandstatus_richPresenceLabel_3Q6g1, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:hover, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:active, .online .personanameandstatus_gameName_qvibF.personanameandstatus_richPresenceLabel_3Q6g1 a:visited {
+.online .personanameandstatus_richPresenceLabel_3Q6g1 {
     color: rgb(var(--online)) !important;
 }
 
@@ -160,6 +160,18 @@ FRIENDLIST
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf {
     color: rgb(var(--online)) !important;
+}
+
+.online.awayOrSnooze .personanameandstatus_playerName_1uxaf {
+    color: rgb(var(--snooze)) !important;
+}
+
+.online.awayOrSnooze .personanameandstatus_richPresenceLabel_3Q6g1 {
+    color: rgb(var(--snooze)) !important;
+}
+
+.friendsnooze_SnoozeContainer_1OfTa.online .friendsnooze_SnoozeZ_29fyi {
+    color: rgb(var(--snooze)) !important;
 }
 
 /* Your Avatar name color */
