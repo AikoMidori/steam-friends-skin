@@ -159,11 +159,7 @@ FRIENDLIST
 
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf {
-    color: rgb(var(--snooze)) !important;
-}
-
-.friendsnooze_SnoozeContainer_1OfTa.online .friendsnooze_SnoozeZ_29fyi {
-    color: rgb(var(--snooze)) !important;
+    color: rgb(var(--online)) !important;
 }
 
 .online.awayOrSnooze .personanameandstatus_playerName_1uxaf {
@@ -190,7 +186,11 @@ FRIENDLIST
 
 /* Color for all icons */
 .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_VR path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_MobilePhone path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_BigPicture path {
-    fill: rgb(var(--icon)) !important;
+    fill: rgb(var(--online)) !important;
+}
+
+.personastatusicons_PersonaStatusIcon_2rP7f.online.awayOrSnooze .SVGIcon_VR path, .personastatusicons_PersonaStatusIcon_2rP7f.online.awayOrSnooze .SVGIcon_MobilePhone path, .personastatusicons_PersonaStatusIcon_2rP7f.online.awayOrSnooze .SVGIcon_BigPicture path {
+    fill: rgb(var(--snooze)) !important;
 }
 
 /* icon tab search button */
