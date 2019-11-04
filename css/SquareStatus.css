@@ -4,8 +4,9 @@ BORDER STATUS
 
 .online .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--online)) !important;
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
@@ -13,16 +14,28 @@ BORDER STATUS
 
 .ingame .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--ingame)) !important;
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
 }
 
 .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.ingame.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
@@ -31,24 +44,26 @@ BORDER STATUS
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--snooze)) !important;
     -webkit-mask: none !important;
-    width: 93px !important;
-    height: 93px !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
 } 
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
 }
 
 .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
@@ -56,8 +71,9 @@ BORDER STATUS
 
 .offline .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--offline)) !important;
-    width: 93px !important;
-    height: 93px !important;
+    -webkit-mask: none !important;
+    width: 94px !important;
+    height: 94px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
