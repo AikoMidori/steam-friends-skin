@@ -708,6 +708,67 @@ html.client_chat_frame body, html.web_chat_frame body {
     border-radius: 4px !important;
 }
 
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_ingame_3H2mq {
+    color: rgb(var(--ingame)) !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_ingame_3H2mq .miniprofile_richPresence_1rud4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_ingame_3H2mq .miniprofile_gameState_2Va3_ {
+    color: rgb(var(--ingame)) !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--online)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.offline .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.offline .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--offline)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online.awayOrSnooze .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online.awayOrSnooze .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--snooze)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--ingame)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game.awayOrSnooze .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game.awayOrSnooze .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--snooze)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.golden .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.golden .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--golden)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.watchingbroadcast .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.watchingbroadcast .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--broadcast)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerContent_PV11V .miniprofile_persona_1Z3Ey .miniprofile_personaName_W3QjS.miniprofile_hasNickname_dgG-l {
+    color: rgb(var(--snooze)) !important; }
+  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--ingame)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game.awayOrSnooze .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--snooze)) !important; }
+  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.offline .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--offline)) !important; }
+  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.golden .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--golden)) !important; }
+  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.watchingbroadcast .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--broadcast)) !important; }
+  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--online)) !important; }
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online.awayOrSnooze .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+    color: rgb(var(--snooze)) !important; }
+
 /* CONTEXT MENU'S */
 
 .contextmenu_contextMenuItem_CBC-y {
