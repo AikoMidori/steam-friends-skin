@@ -2,7 +2,7 @@
 BORDER STATUS
 --------------------------------------------------------------*/
 
-.online .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.online .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--online)) !important;
     -webkit-mask: none !important;
     width: 94px !important;
@@ -12,7 +12,7 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.ingame .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.ingame .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--ingame)) !important;
     -webkit-mask: none !important;
     width: 94px !important;
@@ -22,7 +22,7 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
     -webkit-mask: none !important;
     width: 94px !important;
     height: 94px !important;
@@ -31,7 +31,7 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.ingame.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.ingame.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--snooze)) !important;
     -webkit-mask: none !important;
     width: 94px !important;
@@ -41,7 +41,7 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--snooze)) !important;
     -webkit-mask: none !important;
     width: 94px !important;
@@ -51,7 +51,7 @@ BORDER STATUS
     z-index: 1 !important;
 } 
 
-.golden .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.golden .steamavatar_avatarStatus_1Pwr6 {
     -webkit-mask: none !important;
     width: 94px !important;
     height: 94px !important;
@@ -60,7 +60,7 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
     -webkit-mask: none !important;
     width: 94px !important;
     height: 94px !important;
@@ -69,11 +69,90 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
-.offline .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG.offline.steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--offline)) !important;
     -webkit-mask: none !important;
     width: 94px !important;
     height: 94px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+
+
+.steamavatar_avatarHolder_1G7LI.online .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--online)) !important;
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.ingame .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--ingame)) !important;
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.ingame.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+} 
+
+.steamavatar_avatarHolder_1G7LI.golden .steamavatar_avatarStatus_1Pwr6 {
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
+
+.steamavatar_avatarHolder_1G7LI.offline .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--offline)) !important;
+    -webkit-mask: none !important;
+    width: 28px !important;
+    height: 28px !important;
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
