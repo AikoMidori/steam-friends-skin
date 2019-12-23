@@ -11,6 +11,29 @@ CHAT WINDOW
     margin-top: 5px !important;
 }
 
+.HorizontalMiniSlider {
+    height: 46px !important;
+    margin-bottom: -5px !important;
+    margin-top: -5px !important;
+}
+
+.chattabs_ChatTab_1WfqA {
+    margin-left: 3px !important;
+    border-radius: 4px !important;
+}
+
+.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
+    background-color: #1e1e1f !important;
+}
+
+.chattabs_ChatTab_1WfqA:hover:not(.chattabs_Active_3sMSI) {
+    background-color: #1e1e1f !important; 
+}
+
+.chattabs_ChatTab_1WfqA:before, .chattabs_ChatTab_1WfqA:last-of-type:after {
+    display: none !important;
+}
+
 /* Removes glow form unread message */
 .chatTab .UnreadGlow {
     display: none !important;
@@ -117,9 +140,15 @@ button.DialogButton:active, button.DialogButton:active:hover {
     border-radius: 4px !important;
 }
 
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
+    margin-left: 12px !important;
+    margin-top: 12px !important;
+}
+
 .chatTabSelector {
     background-color: transparent !important;
-    width: 44px !important;
+    width: 36px !important;
+    height: 36px !important;
     border-radius: 25px !important;
     border: 0px !important;
     border-bottom-width: none !important;
