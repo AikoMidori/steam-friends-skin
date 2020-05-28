@@ -158,6 +158,13 @@ BORDER STATUS
     z-index: 1 !important;
 }
 
+.steamavatar_avatarHolder_1G7LI .steamavatar_avatarStatus_1Pwr6.steamavatar_avatar_f2laR {
+    width: 28px !important;
+    height: 28px !important;
+    left: -1px !important;
+    top: -1px !important;
+}
+
 /* Game playing status */
 .friendGroup .SteamPlayerGroupFooter {
     margin-top: -20px !important;
